@@ -13,7 +13,7 @@ mongoose.set("strictQuery", true);
 mongoose.connect("mongodb+srv://divyamala_:Dt25042000knp@divyamala.0cofsch.mongodb.net/Tailwebs",{
      useNewUrlParser: true 
 })
-  .then(() => {console.log("mongoDB is connected")})
+  .then(() => {console.log("MongoDB is connected")})
   .catch((err) => {console.log(err)});
 
 app.use("/", route);

@@ -16,7 +16,7 @@ const authentication = function (req, res, next) {
                 return res.status(401).send({ status: false, message: err.message })
 
             }
-        })
+        });
     } catch (err) {
         res.status(500).send({ status: false, message: err.message })
     }
