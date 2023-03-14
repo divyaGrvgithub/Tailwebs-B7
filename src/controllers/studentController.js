@@ -1,7 +1,7 @@
 const studentModel = require("../models/studentModel")
 const mongoose = require('mongoose')
 
-const createStudent = async (req, res) => {
+const createStudent = async (req, res) => {  
     try {
 
         let data = req.body;
