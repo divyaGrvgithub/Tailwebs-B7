@@ -1,0 +1,39 @@
+{
+  "name": "tailwebs-b7",
+  "version": "1.0.0",
+  "description": "Use any.\r Database:\r MYSQL / MongoDB / (Use any)\r Below are the task requirements.\r Task\r The task is very simple. You just need to think twice and follow the below\r instruction\r 1. Create a login screen.\r 2. After logging in the student list will appear with filters(name, subject) and\r add/edit/view/delete.\r 3. While adding a student with the student and subject combination that\r already exists in the database then include the marks in existing marks.\r otherwise, it will create a new student record.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": ">=8.0.0<9.0.0",
+    "node": ">=16.0.0<17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyaGrvgithub/Tailwebs-B7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyaGrvgithub/Tailwebs-B7/issues"
+  },
+  "homepage": "https://github.com/divyaGrvgithub/Tailwebs-B7#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "multer": "^1.4.5-lts.1",
+    "npm": "^9.3.1",
+    "valid-objectid": "^0.0.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
+
